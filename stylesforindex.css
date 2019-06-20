@@ -1,0 +1,37 @@
+html {
+box-sizing: border-box;
+}
+
+body {
+max-width: 960px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin: 0 auto;
+background-color: beige;
+}
+
+#entry {
+display: flex;
+flex-direction: column;
+}
+
+h1, #gift, a {
+flex: 1;
+align-self: center;
+}
+
+h1 {
+font-family: "Permanent Marker";
+font-size: 3.0rem;
+letter-spacing: 0.4rem;
+text-shadow: 4px 5px 4px black;
+}
+
+a, a:active {
+text-decoration: none;
+color: DodgerBlue;
+}
+
+a:hover {
+color: #0f7cdb;
+}
