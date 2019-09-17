@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>Wish For You</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styleforvideo.css">
+</head>
 <body>
+<div class="videoDiv">
 
-<button onclick="playVid()" type="button">Play Video</button>
-<button onclick="pauseVid()" type="button">Pause Video</button><br>
 
-<video id="myVideo" width="480" height="480">
+<video controls poster="mynewfavpic.jpg" id="myVideo" width="100%" >
   <source src="videoplayback.mp4" type="video/mp4">
 </video>
-
+<button class="button" onclick="playVid()" type="button">Play Video</button>
+</div>
 <script>
 var vid = document.getElementById("myVideo");
 
 function playVid() {
   vid.play();
-}
-
-function pauseVid() {
-  vid.pause();
 }
 </script>
 
