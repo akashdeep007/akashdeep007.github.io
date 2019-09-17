@@ -1,26 +1,8 @@
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-}
-.button:hover {background-color: #3e8e41}
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-.button{border-radius: 50%;}
 
 .videoDiv
 {
-    width: 70%; /*or whatever % you prefer*/
+    width: 80%; /*or whatever % you prefer*/
     margin: 0 auto;
     display: block;
 }
